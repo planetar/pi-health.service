@@ -1,0 +1,12 @@
+[settings]
+mqbroker = 192.168.10.1
+mquser   = username
+mqpasswd = password
+mqport   = 1883
+
+interval = 245
+id       = hostname
+
+
+
+

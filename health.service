@@ -1,0 +1,13 @@
+[Unit]
+Description=Run Health check
+After=multi-user.target
+ 
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /usr/local/scripts/health/mqhealth.py
+Restart=on-abort
+User=pi
+ 
+[Install]
+WantedBy=multi-user.target
+
