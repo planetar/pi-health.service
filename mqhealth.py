@@ -167,6 +167,7 @@ def on_message(client, userdata, msg):
     #print(msg.topic+" "+message)
 
 def on_publish(mosq, obj, mid):
+    pass
     #print("mid: " + str(mid))
 
 
