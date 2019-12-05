@@ -13,6 +13,7 @@ The scripts connection data are configured in the settings.ini which is expected
 - rename the file settings.ini.dist to settings.ini and edit it, the address of the mqbroker, the user and password, port
 - after you tested it all runs from the commandline, edit the file health.service and update the file path there.
 - copy health.service to /etc/systemd/system/health.service
+
 from the command line :
 - systemctl enable health.service
 - systemctl start health.service
