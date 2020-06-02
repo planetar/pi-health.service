@@ -18,3 +18,5 @@ from the command line :
 - systemctl enable health.service
 - systemctl start health.service
 - systemctl status health.service
+
+![health data in habpanel diagram](https://github.com/planetar/pi-health.service/blob/master/rsc/raspi_load_temp_Screenshot_20200602_205336.png?raw=true)
